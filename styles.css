@@ -2,12 +2,12 @@
 *{
 	background:skyblue;
 }
-p:nth-child(2){
-	background-color:black;
-	color:white;
+p:first-child{
+	background-color:rgb(0,0,0);
+	color:rgb(255,255,255);
 }
-p:nth-child(5){
-	color:red;
+p:last-child{
+	color:rgb(255,0,0);
 }
 li:first-child{
 	background-color:rgb(255,255,255);
@@ -17,10 +17,12 @@ li:first-child{
 }
 li:nth-child(2n){
 	background-color: #708090;
+	color:rgb(0,0,0);
 	width:50%;
 }
 li:nth-child(3){
 	background-color: pink;
+	color:rgb(0,0,0);
 	width:50%;
 }
 li:last-child{
