@@ -1,9 +1,33 @@
 /*  your css code here. If applicable */
-.first-para{
+p:nth-child(3){
 	background-color:black;
 	color:white;
 }
-.last-para{
+p:last-child{
+	color:red;
+}
+p:nth-child(6){
+	color:red;
+}
+li:first-child{
+	background-color:white;
+	font-size:20px;
+	width:50%;
+}
+li:nth-child(2n){
+	background-color: #708090;
+	width:50%;
+}
+li:nth-child(3){
+	background-color: pink;
+	width:50%;
+}
+li:last-child{
+	background-color:white;
+	font-size:20px;
+	width:50%;
+}
+/* .last-para{
 	color:red;
 }
 .first-item{
@@ -27,4 +51,4 @@
 	background-color:white;
 	font-size:20px;
 	width:50%;
-}
+} */
