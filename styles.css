@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+body{
+	background-color:skyblue;
+}
+.first-para{
+	background-color:black;
+	color:white;
+}
+.last-para{
+	color:red;
+}
+.first-item{
+	background-color:white;
+	font-size:20px;
+	width:50%;
+}
+.second-item{
+	background-color: #708090;
+	width:50%;
+}
+.third-item{
+	background-color: pink;
+	width:50%;
+}
+.fourth-item{
+	background-color: #708090;
+	width:50%;
+}
+.fifth-item{
+	background-color:white;
+	font-size:20px;
+	width:50%;
+}
