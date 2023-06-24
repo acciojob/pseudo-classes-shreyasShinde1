@@ -2,14 +2,11 @@
 *{
 	background:skyblue;
 }
-p:nth-child(3){
+p:nth-child(2){
 	background-color:black;
 	color:white;
 }
-p:last-child{
-	color:red;
-}
-p:nth-child(6){
+p:nth-child(5){
 	color:red;
 }
 li:first-child{
