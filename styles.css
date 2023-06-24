@@ -1,4 +1,7 @@
 /*  your css code here. If applicable */
+*{
+	background:skyblue;
+}
 p:nth-child(3){
 	background-color:black;
 	color:white;
